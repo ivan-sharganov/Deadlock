@@ -1,3 +1,5 @@
+package Deadlock;
+
 public class MyThread extends  Thread{
     Object lock1 = new Object();
     Object lock2 = new Object();
